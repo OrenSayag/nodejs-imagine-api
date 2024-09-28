@@ -1,0 +1,57 @@
+[
+  {
+    "prompt": "a bright, modern, slightly cartoony but realistic travel style image of Benidorm, Spain --ar 70:99",
+    "urls": [
+      "https://cl.imagineapi.dev/assets/55bec329-c374-45f7-8e3c-1c32cd4b9864/55bec329-c374-45f7-8e3c-1c32cd4b9864.png",
+      "https://cl.imagineapi.dev/assets/999615cb-3bd0-4481-9107-7cfe3c96a16c/999615cb-3bd0-4481-9107-7cfe3c96a16c.png",
+      "https://cl.imagineapi.dev/assets/e9da2166-a19d-4d46-8159-8d40879682d9/e9da2166-a19d-4d46-8159-8d40879682d9.png",
+      "https://cl.imagineapi.dev/assets/9874a021-7279-4714-b0eb-e1f470315751/9874a021-7279-4714-b0eb-e1f470315751.png"
+    ],
+    "imagineApiId": "3f902bee-ecfd-4265-9bc7-92fce7358054",
+    "createdAt": "2024-09-28T17:04:10.773Z"
+  },
+  {
+    "prompt": "a bright, modern, slightly cartoony but realistic travel style image of Ubud, Indonesia --ar 70:99",
+    "urls": [
+      "https://cl.imagineapi.dev/assets/305f3485-dc93-464e-ba7b-7d78699f3cf2/305f3485-dc93-464e-ba7b-7d78699f3cf2.png",
+      "https://cl.imagineapi.dev/assets/b550d5cc-6306-475d-8f15-9c50593dd498/b550d5cc-6306-475d-8f15-9c50593dd498.png",
+      "https://cl.imagineapi.dev/assets/8b2dc815-c64f-4358-80ca-a787bc9f5e56/8b2dc815-c64f-4358-80ca-a787bc9f5e56.png",
+      "https://cl.imagineapi.dev/assets/6b88867b-a139-437d-80ad-1bbf2ae6b04f/6b88867b-a139-437d-80ad-1bbf2ae6b04f.png"
+    ],
+    "imagineApiId": "46b8116a-21ce-44eb-be4e-ad7f3271e848",
+    "createdAt": "2024-09-28T17:04:42.107Z"
+  },
+  {
+    "prompt": "a bright, modern, slightly cartoony but realistic travel style image of Furka Pass, Switzerland --ar 70:99",
+    "urls": [
+      "https://cl.imagineapi.dev/assets/b553fbef-3712-4a57-8371-36e1d2fca7cd/b553fbef-3712-4a57-8371-36e1d2fca7cd.png",
+      "https://cl.imagineapi.dev/assets/5425a5ed-4a7f-4372-b1e0-eb1a7948b8a8/5425a5ed-4a7f-4372-b1e0-eb1a7948b8a8.png",
+      "https://cl.imagineapi.dev/assets/bd6f148e-d685-4f4d-b064-215b24b1a18e/bd6f148e-d685-4f4d-b064-215b24b1a18e.png",
+      "https://cl.imagineapi.dev/assets/7858d448-39a6-4edc-9803-4d97bd2dfbdb/7858d448-39a6-4edc-9803-4d97bd2dfbdb.png"
+    ],
+    "imagineApiId": "8edb9857-8172-466b-987c-fc18b6955b0d",
+    "createdAt": "2024-09-28T17:04:31.743Z"
+  },
+  {
+    "prompt": "a bright, modern, slightly cartoony but realistic travel style image of Cyprus --ar 70:99",
+    "urls": [
+      "https://cl.imagineapi.dev/assets/cd408911-ecb9-47d3-b9d2-8584d5c47397/cd408911-ecb9-47d3-b9d2-8584d5c47397.png",
+      "https://cl.imagineapi.dev/assets/f5244415-05a3-4d74-854e-b2db372fc429/f5244415-05a3-4d74-854e-b2db372fc429.png",
+      "https://cl.imagineapi.dev/assets/a81cfa4d-1fad-4549-ab58-6d6b7cc1daa4/a81cfa4d-1fad-4549-ab58-6d6b7cc1daa4.png",
+      "https://cl.imagineapi.dev/assets/f0a3ed6e-7e44-4882-a1ce-649ed269cc49/f0a3ed6e-7e44-4882-a1ce-649ed269cc49.png"
+    ],
+    "imagineApiId": "23388c9e-da12-4257-a445-7d42cdaeaf10",
+    "createdAt": "2024-09-28T17:04:33.085Z"
+  },
+  {
+    "prompt": "a bright, modern, slightly cartoony but realistic travel style image of Zermatt, Switzerland --ar 70:99",
+    "urls": [
+      "https://cl.imagineapi.dev/assets/23b83472-3ed1-4481-ad8f-bd1b8348e747/23b83472-3ed1-4481-ad8f-bd1b8348e747.png",
+      "https://cl.imagineapi.dev/assets/c8d9d398-efd9-4383-9a7c-160a33d96bdd/c8d9d398-efd9-4383-9a7c-160a33d96bdd.png",
+      "https://cl.imagineapi.dev/assets/4305a10f-61b6-4e79-baf7-7ef7e2c2bbdf/4305a10f-61b6-4e79-baf7-7ef7e2c2bbdf.png",
+      "https://cl.imagineapi.dev/assets/495a8371-57ac-4882-b48a-56d80bfe544a/495a8371-57ac-4882-b48a-56d80bfe544a.png"
+    ],
+    "imagineApiId": "4fe00e5c-2c55-4d11-aca4-f1e8ec99ff10",
+    "createdAt": "2024-09-28T17:04:10.245Z"
+  }
+]
