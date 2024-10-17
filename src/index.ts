@@ -1,9 +1,10 @@
-import { config } from "dotenv";
-import axios, { AxiosInstance } from "axios";
-import { readInput } from "./methods/read-input";
+import {config} from "dotenv";
+import axios, {AxiosInstance} from "axios";
+import {readInput} from "./methods/read-input";
 import createImage from "./methods/create-image";
 import * as fs from "node:fs";
 import path from "node:path";
+import downloadImages from "./methods/download-images";
 
 config();
 
@@ -11,6 +12,7 @@ const IMAGINE_API_BASE_URL = process.env["IMAGINE_API_BASE_URL"];
 const IMAGINE_API_TOKEN = process.env["IMAGINE_API_TOKEN"];
 const INPUT_FILE_PATH = process.env["INPUT_FILE_PATH"];
 const OUTPUT_DIR_PATH = process.env["OUTPUT_DIR_PATH"];
+const OUTPUT_IMAGES_DIR_PATH = process.env["OUTPUT_IMAGES_DIR_PATH"];
 
 const api: AxiosInstance = axios.create({
     baseURL: IMAGINE_API_BASE_URL,
@@ -25,7 +27,6 @@ const main = async () => {
         const input = readInput({
             inputFilePath: INPUT_FILE_PATH,
         });
-        console.log({ input });
 
         // Chunk the input data into batches of 10
         const chunks = chunkArray(input, 10);
@@ -40,6 +41,13 @@ const main = async () => {
                         apiInstance: api,
                         prompt: record.prompt,
                     });
+                    if (OUTPUT_IMAGES_DIR_PATH) {
+                        await downloadImages({
+                            urls: urls.urls,
+                            imagineApiId: urls.imagineApiId,
+                            outputDir: OUTPUT_IMAGES_DIR_PATH
+                        })
+                    }
                     return {
                         prompt: record.prompt,
                         ...urls,
@@ -69,7 +77,7 @@ const formatDateTime = (date: Date): string => {
     return `${day}${month}${year}${hours}${minutes}`;
 };
 
-function createOutputFile(outputDirPath: string): {outputFilePath: string} {
+function createOutputFile(outputDirPath: string): { outputFilePath: string } {
     const outputFileName = `${formatDateTime(new Date())}.json`;
     const outputFilePath = path.join(outputDirPath, outputFileName)
     fs.writeFileSync(outputFilePath, '');
